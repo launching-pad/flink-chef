@@ -4,6 +4,7 @@ source 'https://supermarket.chef.io'
 metadata
 
 cookbook 'java'
+cookbook 'apt', '~> 2.6.0'
 cookbook 'kagent', github: 'karamelchef/kagent-chef'
 cookbook 'apache_hadoop', github: 'hopshadoop/apache-hadoop-chef'
 cookbook 'hops', github: 'hopshadoop/hops-hadoop-chef', branch: 'master'
